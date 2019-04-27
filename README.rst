@@ -34,8 +34,10 @@ set up your channels (numbers 1 and 2). Then:
 
 ::
 
-    conda install python=3.6 pyyaml snakemake biopython biom-format=2.1.5
+    conda install python>=3.6 click \
+        pyyaml snakemake>=5.1.4 biopython
     pip install hundo
+
 
 Usage
 =====
@@ -118,6 +120,14 @@ Captures and summarizes data of the experimental dataset. Things like
 sequence quality, counts per sample at varying stages of pre-processing, and
 summarized taxonomic composition per sample across phylum, class, and
 order.
+
+Citing
+======
+
+Cite this as:
+
+    Brown J, Zavoshy N, Brislawn CJ, McCue LA. (2018) Hundo: a Snakemake workflow for microbial community sequence data. PeerJ Preprints 6:e27272v1 https://doi.org/10.7287/peerj.preprints.27272v1
+
 
 .. |DOI| image:: https://zenodo.org/badge/83449413.svg
    :target: https://zenodo.org/badge/latestdoi/83449413

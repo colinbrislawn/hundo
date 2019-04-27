@@ -1,4 +1,6 @@
-example/annotation_references
+example/*references
+example/*results
+example/additional_data
 .snakemake
 
 # Byte-compiled / optimized / DLL files
@@ -92,4 +94,3 @@ ENV/
 
 # Rope project settings
 .ropeproject
-
